@@ -14,7 +14,7 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapi.xyz': 'Your Key',
+	'https://zenzapi.xyz': '38de7dd8a9',
 }
 
 // Other
@@ -40,7 +40,7 @@ global.limitawal = {
     premium: "Infinity",
     free: 100
 }
-global.thumb = fs.readFileSync('./lib/hisoka.jpg')
+global.thumb = fs.readFileSync('https://telegra.ph/file/f8228e4687de6933eaae6.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
